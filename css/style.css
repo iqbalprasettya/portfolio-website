@@ -13,6 +13,7 @@ body{
   position: relative;
   display: flex;
   width: 100%;
+  height: 4em;
   background-color: #002147;
   
 }
@@ -263,6 +264,9 @@ nav .navbar .links li:hover .link-sub-menu3{
 }
 
 @media (max-width:800px){
+  .header{
+    height: 2em;
+  }
   .header .header-contact .contact-link{
     margin-left: 7px;
     font-size: 12px;
@@ -393,7 +397,7 @@ nav .navbar .links li .sub-menu li{
       transform: rotate(90deg);
     }
     
-    .slider .carousel-inner{
+    .slider .slide{
       height: auto;
       
       
@@ -401,13 +405,11 @@ nav .navbar .links li .sub-menu li{
     }
     .slider .carousel-inner img{
      width: 100%;
-     height: ;
+     height: 100%;
     
     }
   
-    h2{
-      color: blue;
-    }
+    
 }
    .navbar .nav-links .links #jrsn-show:checked ~ ul,
    .navbar .nav-links .links #prgm-show:checked ~ ul,
@@ -451,8 +453,8 @@ nav .navbar .links li .sub-menu li{
   margin-right: auto;
   position: relative;
   background-size: contain;
-    background-position: center center;
-  height: 35em;
+  background-position: center center;
+  height: auto;
   /*width: ;*/
   
   
@@ -463,5 +465,7 @@ nav .navbar .links li .sub-menu li{
 }
 h1{
   text-align: center;
-  padding-bottom: 4;
+  padding-bottom: auto;
+  padding-top: 50%;
+  padding-bottom: 50%;
 }
