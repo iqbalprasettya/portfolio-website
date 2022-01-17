@@ -8,6 +8,7 @@
 }
 body{
   min-height: 100vh;
+  background-color: #eeeeee;
 }
 .header{
   position: relative;
@@ -295,12 +296,7 @@ nav .navbar .links li:hover .link-sub-menu3{
   height: 50%;
   margin-bottom: auto;
 }
-h1{
-  text-align: center;
-  padding-bottom: auto;
-  padding-top: 50%;
-  padding-bottom: 50%;
-}
+
 .entry-content{
   margin: auto;
   padding: 2em;
@@ -315,13 +311,187 @@ h1{
   float: left;
   padding-right: 1.5em;
   margin: 5px;
-  border-left: 7px solid #fdc800;
+  border-left: 8px solid #fdc800;
 }
 .entry-content .adivisor-text .div-kepsek .text-in{
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
+.content-1{
+  margin: auto;
+  padding: 2em;
+  width: 75%;
+  background-color: transparent;
+}
+.content-1 .about-sekolah img{
+  width: 30em;
+  margin-left: 1em;
+  margin-bottom: 2em;
+  margin-top: 20px;
+  float: right;
+  border-right: 8px solid #fdc800;
+  
+}
+.visi-misi{
+  width: 75%;
+  background-color: #fff;
+  margin: auto;
+  border-left:  5px solid #fdc800;
+  
+}
+.visi-misi .visi-misi-heading{
+  text-align: center;
+  padding-top: 2em;
+  color: #002147;
+}
+.visi-misi .visi , .visi-misi .misi{
+  margin: 2em;
+  padding-bottom: 1.5em;
+ 
+}
+.visi-misi .misi .ul-num{
+  list-style-type: decimal;
+  margin-left: 3em;
+}
+.visi-misi .misi .ul-num ul{
+  list-style-type: initial;
+  margin-left: 1em;
+}
+.visi-misi .misi .ul-num{
+  line-height: 2em;
+
+}
+.container-jrsn{
+  width: 100%;
+  background-color: #002147;
+  overflow: auto;
+ 
+}
+.container-jrsn .main-jrsn .jrsn-pg{
+  float: left;
+  
+  
+}
+.container-jrsn .section-title{
+  text-align: center;
+  color: #f2f2f2;
+  padding: 2em;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-jrsn{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.floatbox {
+  display: block;
+  box-sizing: border-box;
+  margin: 0px -20px;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.floatbox::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.item {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  margin-bottom: 39px;
+  padding: 0px 20px;
+}
+
+.item:nth-child(2n + 1) {
+  clear: both;
+}
+
+.content {
+  color: #242424;
+  background-color: #f2f2f2;
+  font-weight: 600;
+  text-align: left;
+  border-radius: 9px;
+  width: 35em;
+
+}
+.content .courses-img img{
+  width: 35em;
+  border-radius: 7px;
+}
+.content .courses-content{
+  padding: 1em;
+  
+}
+.content .courses-content .courses-heading h1 a{
+  font-size: 25px;
+  color: #002147;
+  text-decoration: none;
+  transition: all 0.7s ease;
+
+}
+.content .courses-content .courses-heading h1 a:hover{
+  color: #fdc800;
+  text-decoration: none;
+}
+.content .courses-content .courses-li li{
+  list-style-type: initial;
+}
+
+/* Infomasi Infokom*/
+.main-info{
+  background-color: #eeeeee;
+}
+.floatbox2 {
+  display: block;
+  box-sizing: border-box;
+  margin: 0px -4.5px;
+}
+
+.floatbox2::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.item2 {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  margin-bottom: 27px;
+  padding: 0px 4.5px;
+  
+}
+
+.item2:nth-child(4n + 1) {
+  clear: both;
+}
+
+.content2 {
+  color: #242424;
+  background-color: #fff;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+
+
+
 
 
 
@@ -360,6 +530,7 @@ h1{
   nav .navbar .links li a{
     font-size: 15px;
   }
+
 	
 	
 		
@@ -528,6 +699,7 @@ nav .navbar .links li .sub-menu li{
     .entry-content{
       background-color: transparent; 
       width: 100%;
+      overflow: auto;
     }
     
     .entry-content span h2{
@@ -536,9 +708,29 @@ nav .navbar .links li .sub-menu li{
 
     }
     .entry-content .adivisor-text .div-kepsek .info-kepsek img{
-      width: 13em;
+      width: 20em;
       float: none;
+      border-radius: 4px;
     }
+    .content-1{
+      background-color: transparent;
+      overflow: auto;
+      width: 100%;
+      
+
+    }
+    .content-1 .about-sekolah img{
+      width: 20em;
+      border-radius: 4px;
+      
+      
+      border-right: 8px solid #fdc800;
+      
+    }
+    .content-1 .about-sekolah h1{
+      font-size: 1.5em;
+    }
+
  
 
 	
