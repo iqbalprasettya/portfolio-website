@@ -10,7 +10,16 @@
 [![Bootstrap](https://img.shields.io/badge/bootstrap%20-blueviolet.svg?&style=for-the-badge&logo=bootstrap&logoColor=white)](https://en.wikipedia.org/wiki/JavaScript)
 
 
-© 2022 Iqbal Prasetya
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+
+
+
+
+
+
+
+
+
+© 2022 Iqbal Prasetya
 
